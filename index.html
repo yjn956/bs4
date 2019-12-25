@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>首页</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<style type="text/css">
+	/* .ul {
+		background: #283643;
+		width: 12rem;
+		position: fixed;
+		top: 3.5rem;
+		bottom: 0;
+		margin-bottom: 0;
+	} */
+	</style>
+</head>
+<body>
+	<div>
+    <nav class="navbar navbar-expand navbar-dark  bg-primary fixed-top">
+      <a class="navbar-brand" href="#">某管理系统</a>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              用户操作
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">个人中心</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">退出</a>
+            </div>
+          </li>
+        </ul>
+    </nav>
+<!-- 左侧 -->
+    <ul class="ul1 pt-3 list-unstyled">
+      <li class="actived"><a href="index.html" class="active">首页</a></li>
+      <li><a href="user.html">用户中心</a></li>
+      <li class=""><a href="search.html">数据查询</a></li>
+      <li class=""><a href="data.html">数据面板</a></li>
+      <li class=""><a href="tip.html">提醒事项</a><span class="badge badge-pill badge-warning ml-3">4</span></li>
+    </ul>
+<!-- 右侧 -->
+	<div class="div1 overflow-auto">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">首页</li>
+      </ol>
+<!-- 首页内容 -->
+    <div class="container-fluid ">
+     <div class="row">
+        <div class="col-lg-4 ">
+           <div class="card text-white bg-success mb-2 ml-auto mr-auto " style="max-width: 20rem;">
+             <div class="card-body font-weight-light">
+               <h5 class="card-title">当前用户总数</h5>
+               <p class="card-text display-3">120,123</p>
+             </div>
+           </div>
+        </div>
+
+        <div class="col-lg-4 ">
+           <div class="card text-white bg-primary mb-2 ml-auto mr-auto" style="width: 20rem;">
+             <div class="card-body font-weight-light">
+               <h5 class="card-title">每日平均活跃用户数</h5>
+               <p class="card-text display-3">1,123</p>
+             </div>
+           </div>
+        </div>
+        <div class="col-lg-4 ">
+           <div class="card text-white bg-warning mb-2 ml-auto mr-auto" style="width: 20rem;">
+             <div class="card-body font-weight-light">
+               <h5 class="card-title">每日平均访问次数</h5>
+               <p class="card-text display-3">3,123</p>
+             </div>
+            </div>
+        </div>
+     </div>
+    </div>
+    </nav>
+  </div>
+  </div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+.ul1{
+background: #283643;
+    width: 12rem;
+    position: fixed;
+    top: 3.5rem;
+    bottom: 0;
+    margin-bottom: 0;
+}
+.ul1 li a{
+  text-decoration: none;
+  color:#fff;
+}
+.ul1 li{
+  height:3rem;
+  line-height: 3rem;
+  padding-left:2rem;
+  padding-right:2rem;
+}
+.ul1 li:hover{
+  background:#3c4248;
+}
+.actived{
+  background:#3c4248;
+}
+.nav1{
+  position: fixed;
+  top:3.5rem;
+  bottom:0;
+  left:12rem;
+  right:0;
+}
+
+h6{
+  color:#6c757d;
+  height:3rem;
+  line-height: 3rem;
+  border-bottom:2px solid #e9ecef;
+  margin-left:0.5rem;
+}
+.div1 {
+  position: fixed;
+  top: 3.5rem;
+  bottom: 0;
+  left: 12rem;
+  right: 0;
+}
